@@ -1,0 +1,649 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* GOLD AND SILVER RATE MARQUEE */
+.header-mark
+{
+    width:100%;
+    padding:10px;
+    background-color: blueviolet;
+    color:white;
+    font-weight:900;
+    font-size:large;
+    padding-left:100px;
+    padding-right:100px;
+    cursor:pointer;
+}
+
+/* LOGO */
+.logo
+{
+    
+    margin-left:40px;
+}
+
+.logomk
+{
+    height:30px;
+    width:60px;
+    margin-top:10px;
+    cursor:pointer;
+
+}
+
+/* SCHEMES DETAILS */
+.scheme
+{
+
+
+    margin-left:20px;
+    padding:20px;
+    background-color:chocolate;
+    color:antiquewhite;
+    border:2px solid cornflowerblue;
+    cursor:pointer;
+}
+.joinnow{
+    padding:20px;    
+    border:2px solid cornflowerblue;
+    background-color:cornflowerblue;
+    margin-left:unset;
+    cursor:pointer;
+}
+.payonline
+{
+    margin-left:10px;
+    padding:10px;
+    background-color: blue;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:900;
+    cursor:pointer;
+}
+/* NAV BAR */
+
+.navcontainer
+{
+   
+    margin-top:10px;
+    padding:20px;
+    background-color: blue;
+    color:white;
+    padding-left:250px;
+    width:100%;
+    position:sticky;
+    top:0px;
+    z-index: 99;
+    
+}
+a{
+    color:white;
+    margin-left:40px;
+    text-decoration: none;
+    padding:10px;
+
+}
+
+a:hover{
+
+    padding:10px;
+    background-color: crimson;
+    border-radius:10px;
+    border:none;
+    transition: 1s;
+}
+
+/* HOME PAGE VIDEO */
+
+.homevideo
+{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.homevideo h1
+{
+    position:absolute;
+    color:deeppink;
+    font-size:70px;
+    font-weight:900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+video
+{
+    width:100%;
+    cursor:pointer;
+    position:relative;
+    
+}
+
+/* HOME PAGE IMAGE */
+.homeimage
+{
+    width:100%;    
+    cursor:pointer;
+    margin-top:40px;
+
+}
+
+/* PRODUCTS PAGE */
+.products>h1
+{
+    padding:10px;
+    color:brown;
+    font-size:48px;
+    width:100%;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:30px;
+
+
+}
+
+
+.box1
+{
+    width:25%;
+    margin-top:50px;
+    margin-left:30px;
+
+}
+
+.box1:hover
+{
+    
+        transform:scale(1.1,1.1);
+        transition:all 3s;
+       
+  
+    
+}
+
+
+.proimg1
+{
+    height:300px;
+    width:90%;
+    position:relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    margin-bottom:0;
+    cursor:pointer;
+        
+
+}
+.box{
+    width:100%;
+    display:flex;
+}
+.box1 h1{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    width:90%;
+    padding:10px;
+    background-color:blue;
+    position:relative;
+    font-size:22px;
+    cursor:pointer;
+    margin-top: unset;
+    bottom: 40px;
+
+}
+
+
+.boxxx
+{
+    width:100%;
+    display:flex;
+}
+
+.boxx{
+    width:100%;
+    display:flex;
+}
+
+.newarrivals>h1
+{
+    margin-top:50px;
+    font-size:40px;
+    text-align:center;
+    color:brown;
+}
+
+.newarrivals>p
+{
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+.newarrivalsimage
+{
+    width:100%;
+    display:flex;
+}
+
+.newarrivalsimage button
+{
+    padding:10px;
+    color:blue;
+    background-color:white;
+    position: relative;
+    bottom:50px;
+    left:80px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.newarrivalsimage button:hover
+{
+    color:white;
+    background-color: blue;
+}
+
+/* CATEGORY PAGE */
+
+.category>h1
+{
+    color:brown;
+    width:100%;
+    font-size: 48px;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.category>p
+{
+font-size:24px;
+text-align:center;
+margin-bottom:30px;
+}
+
+.galleryitems1
+{
+    margin-top:10px;
+    width:100%;
+    display:flex;
+    
+}
+
+.galleryitems2
+{
+    width:100%;
+    display:flex;
+}
+
+
+.box2
+{
+    width:30%;
+    margin-top:50px;
+    margin-left:30px;
+    border:5px solid deeppink;
+
+}
+
+.box2:hover
+{
+    
+        transform:rotate(-2deg);
+        
+        
+        
+        /* transform:scale(1.1,1.1); */
+        transition:all 3s;
+}
+
+.galleryitems1 button
+{
+    padding:10px;
+    border:none;
+    background-color:aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    color:brown;
+    display: block;
+    cursor:pointer;
+    margin-top:20px;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+.galleryitems2 button
+{
+    padding:10px;
+    border:none;
+    background-color:aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    color:brown;
+    display: block;
+    cursor:pointer;
+    margin-top:20px;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+.explore:hover
+{
+    transform:translate(50px,0px);
+}
+
+
+/* BRANCHES DETAILS */
+
+.branches>h1
+{
+    margin-top:100px;
+    font-size:40px;
+    text-align:center;
+    color:brown;
+}
+
+.branches>p
+{
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+/* BRANCH STATE BUTTON */
+.branches button
+{
+    text-align:center;
+    border:1px solid blue;
+    background-color: unset;
+    padding:10px;
+    border-radius: 5px;
+    margin-top:50px;
+    margin-left:30px;
+    cursor:pointer;
+}
+.branches button:hover
+{
+    color:white;
+    background-color: blue;
+}
+
+.overall
+{
+    width:100%;
+    margin-left:400px;
+}
+
+/* BRANCHES DETAILS */
+.branch1
+{
+    margin-top: 80px;
+    width:100%;
+    background-color:gray;
+    display:flex;
+    
+    
+    padding-bottom: 40px;
+
+}
+.branch2
+{
+    margin-left:30px;
+    margin-top:30px;
+    width:30%;
+    background-color:white;
+    border:2px solid black;
+    text-align: center;
+}
+.fa-solid
+{
+    margin-left:10px;
+    margin-right:5px;
+    cursor:pointer;
+}
+.branch2 h3 
+{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.branch2>p
+{
+    margin-top:10px;
+}
+.branch2 h5
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.branch3
+{
+    
+    width:100%;
+    background-color:gray;
+    display:flex;
+    padding-bottom: 40px;
+
+}
+
+
+.branch4
+{
+    
+    width:100%;
+    background-color:gray;
+    display:flex;
+    padding-bottom: 40px;
+
+}
+
+
+.branch5
+{
+    
+    width:100%;
+    background-color:gray;
+    display:flex;
+    padding-bottom: 40px;
+}
+
+
+.branch6
+{
+    
+    width:100%;
+    background-color:gray;
+    display:flex;
+    padding-bottom: 40px;
+}
+
+
+/* JOIN OUR WORLD IMAGE */
+
+.joinourworld
+{
+    width:100%;
+    margin-top:50px;
+    position:absolute;
+}
+
+.joinus
+{
+    width:100%;
+    height:70vh;
+    position:absolute;
+}
+
+.joinourworld2
+{
+    margin-top:80px;
+    width:100%;
+    color:yellow;
+    position:absolute;
+    text-align:center;
+}
+.joinourworld2>h1
+{
+    font-size:68px;
+    font-weight:900;
+
+}
+
+.joinourworld2 p
+{
+    font-size:28px;
+    font-weight: bold;
+}
+
+.joinourworld2 .email
+{
+    margin-top:30px;
+    padding:20px;
+    
+    background-color:unset;
+    color:blue;
+    font-size:28px;
+    text-align: center;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline: 0;
+    border-bottom-color: white;
+    
+
+}
+
+.email::placeholder
+{
+    text-align:center;
+    color:aqua;
+    border:none;
+    font-size:30px;
+}
+
+.joinourworldsubmit
+{
+   
+    padding:25px;
+    padding-left:30px;
+    padding-right:30px;
+    border:none;
+    letter-spacing: 2px;
+    text-align:center;
+   margin-left:600px; 
+   cursor:pointer;
+   color:white;
+   
+
+}
+
+.joinourworldsubmit:hover
+{
+    color:white;
+    background-color: blue;
+}
+
+
+
+/* CONTACT US */
+
+
+
+.contactus>h1
+{
+    margin-top:550px;
+    font-size:40px;
+    text-align:center;
+    color:brown;
+}
+
+.contactus>p
+{
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+.contactus2
+{
+    width:100%;
+    display:flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.contactus4
+{
+
+    width:50%;
+    margin-top:30px;
+}
+.contactus4 label{
+    
+    font-size:30px;
+    text-align: center;
+    margin-left:50px;
+}
+
+.contactus4 >.contacttext
+{
+    padding:15px;
+    padding-left:25px;
+    padding-right:25px;
+    margin-left:30px;
+    margin-top:40px;
+}
+
+.contactus4 >textarea
+{
+    padding-left:5px;
+    padding-right:180px;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.contactus4 > button
+{
+    margin-left:150px;
+}
+
+.contactus5
+{
+    margin-top:10px;
+    width:50%;
+}
+
+.contactus5>h1
+{
+    margin-top:10px;
+    margin-bottom:30px;
+    color:gray;
+}
+
+.contactus5>p
+{
+    margin-top:50px;
+
+}
+
+.footer
+{
+width:100%;
+margin-top:20px;
+background-color:rgb(174, 174, 156);
+padding:10px;
+}
+
+.footer2
+{
+
+display:flex;
+padding:20px;
+
+}
+
